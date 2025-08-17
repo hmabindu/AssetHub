@@ -1,0 +1,48 @@
+import { Account } from "../types/account";
+
+export const mockAccounts: Account[] = [
+  {
+    id: "1",
+    name: "Primary Checking",
+    type: "checking",
+    balance: 15420.5,
+    change: 120.3,
+    changePercent: 0.78,
+    institution: "Chase Bank",
+    lastUpdated: "2 hours ago",
+    currency: "USD",
+  },
+  {
+    id: "2",
+    name: "High Yield Savings",
+    type: "savings",
+    balance: 45000.0,
+    change: 187.5,
+    changePercent: 0.42,
+    institution: "Ally Bank",
+    lastUpdated: "1 hour ago",
+    currency: "USD",
+  },
+  {
+    id: "3",
+    name: "Investment Portfolio",
+    type: "investment",
+    balance: 127500.25,
+    change: -892.15,
+    changePercent: -0.69,
+    institution: "Fidelity",
+    lastUpdated: "15 minutes ago",
+    currency: "USD",
+  },
+  {
+    id: "4",
+    name: "Crypto Wallet",
+    type: "crypto",
+    balance: 8750.8,
+    change: 425.3,
+    changePercent: 5.12,
+    institution: "Coinbase",
+    lastUpdated: "5 minutes ago",
+    currency: "USD",
+  },
+];
